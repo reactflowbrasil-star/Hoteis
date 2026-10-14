@@ -64,7 +64,7 @@ jobs:
         if: steps.credentials.outputs.configured == 'true'
         uses: SamKirkland/FTP-Deploy-Action@v4.4.0
         with:
-          server: ftp.canal360.run.place
+          server: host141-200.viabrs.com.br
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           protocol: ftps
